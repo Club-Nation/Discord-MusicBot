@@ -38,4 +38,4 @@ client.on("message", (message) => {
   command.run(client, message, args);
 });
 
-client.login(client.config.token);
+client.login(process.env.token);
